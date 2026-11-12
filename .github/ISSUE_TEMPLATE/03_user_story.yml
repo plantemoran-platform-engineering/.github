@@ -1,47 +1,19 @@
-name: '✨ Feature'
-description: Propose a new feature to be added to this project
-type: Feature
+name: '📖 User Story'
+description: A user-focused story describing a feature or capability
+type: User Story
 labels: ['needs triage :exclamation:']
-title: '**enter the title of your feature request here**'
+title: '**enter the title of your user story here**'
 body:
   - type: markdown
     attributes:
       value: |
-        **Feature Request**
-        Use this when you're requesting **new functionality** (not an enhancement to an existing feature/behavior).
-        Please fill out the fields below to clearly describe the feature you're requesting.
+        **Thanks for creating a user story!**
+        Please use the "As a <persona>, I want <capability>, so that <benefit/value>" format below to clearly describe the desired functionality.
 
   - type: textarea
     attributes:
-      label: What problem are you trying to solve?
-      description: |
-        A clear and concise description of the problem you are trying to solve.
-        What is the current behavior that is problematic?
-        What is happening today?
-        Why is it a problem?
-        Who is impacted?
-      placeholder: 'e.g. I would like to be able to …'
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: What is the intended outcome?
-      description: |
-        State the measurable value or outcome this feature should deliver.
-      placeholder: |
-        - Reduce manual effort from X to Y
-        - Enable users to complete <task> without <workaround>
-        - Improve accuracy / compliance / speed by <measure>
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Primary User Story
-      description: |
-        Write the primary user story for this feature using the format below.
-        This should capture the core value proposition and intended user experience of the feature.
+      label: User Story
+      description: Describe the story using the standard format.
       placeholder: |
         As a <persona>,
         I want <capability>,
@@ -51,71 +23,25 @@ body:
 
   - type: textarea
     attributes:
-      label: Describe the solution you'd like.
-      description: |
-        Describe the desired behavior and any UI/workflow changes.
-        Include UX notes, links, mockups, screenshots, etc.
+      label: Acceptance Criteria
+      description: Testable conditions that must be met for this story to be considered done.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Scope & Boundaries
-      description: |
-        Specify what is in and out of scope for this feature, as well as any assumptions or dependencies.
-        This helps set clear expectations and avoid scope creep.
-      placeholder: |
-        In scope:
-          - ...
-        Out of scope:
-          - ...
-        Assumptions and dependencies:
-          - ...
+      label: Design / UI References
+      description: Links to mockups, wireframes, or design specs.
     validations:
       required: false
 
   - type: textarea
     attributes:
-      label: Acceptance Criteria
-      description: A clear checklist of what defines this feature as complete.
-      placeholder: |
-        - [ ] ...
-        - [ ] ...
-    validations:
-      required: false
-
-  - type: textarea
-    attributes:
-      label: Non-functional Requirements
-      description: Performance, security, audit, reliability, localization, etc.
-      placeholder: |
-        - Performance: ...
-        - Security/Permissions: ...
-        - Audit/Logging: ...
-        - Availability: ...
-    validations:
-      required: false
-
-  - type: textarea
-    attributes:
-      label: Testing Notes
-      description: |
-        How should this be validated?
-        Include edge cases and test data needs.
-      placeholder: |
-        Test scenarios:
-          - ...
-        Edge cases:
-          - ...
-        Test data/setup:
-          - ...
-    validations:
-      required: false
-
-  - type: textarea
-    attributes:
-      label: Implementation Notes
-      description: Developer/architect notes, design considerations, technical approach.
+      label: Technical Notes
+      description: Implementation considerations, constraints, or relevant technical details.
     validations:
       required: false
 
